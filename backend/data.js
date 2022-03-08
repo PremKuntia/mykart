@@ -32,7 +32,7 @@ const data = {
       price: 220,
       countInStock: 0,
       brand: "Lacosta",
-      rating: 4.8,
+      rating: 4.5,
       numReviews: 17,
       description: "high quality product",
     },

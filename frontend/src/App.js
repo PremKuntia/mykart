@@ -19,9 +19,9 @@ function App() {
           </Navbar>
         </header>
         <main>
-          <Container>
+          <Container className="mt-3">
             <Routes>
-              <Route path="/product/:_id" element={<ProductScreen />} />
+              <Route path="/product/:id" element={<ProductScreen />} />
               <Route path="/" element={<HomeScreen />} />
             </Routes>
           </Container>
